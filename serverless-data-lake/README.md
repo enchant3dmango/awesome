@@ -36,8 +36,9 @@
 5. Run `terraform show` to inspect the current state.
 
 ##### Extra Steps
-1. Upload data.csv to the data folder in the source bucket using AWS CLI or AWS Console.
-2. Ah, there you go!
+1. Upload the `data.csv` to `data` folder in the source bucket using AWS CLI or AWS Console.
+2. Check your Glue ETL jobs after uploading the `data.csv`.
+3. Ah, there you go!
 
 ### References
 - [AWS Documentation](https://docs.aws.amazon.com/)
